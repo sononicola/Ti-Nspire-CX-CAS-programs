@@ -1,5 +1,5 @@
-Some **Ti nspire CX CAS** "programs" that I've created to pass "scienza delle costruzioni" and "Meccanica dei Fluidi" at UniTrento
-Techinically they are not scripts. They are just a sequence of actions made in "Notes" and the built-in Spreadsheet. They works ;)
+Some **Ti nspire CX CAS** "programs" that I've created to pass **Solid and Structural Mechanics** *(Scienza delle Costruzioni = SdC)* and **Fluid Mechanics** *(Meccanica dei Fluidi)* at Civil Engineering degree in UniTrento, Italy.
+Techinically they are not scripts. They are just a sequence of actions made in "Notes" and with the built-in Spreadsheet. They works ;)
 
 __I switch to italian, sorry__
 
