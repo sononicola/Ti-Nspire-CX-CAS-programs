@@ -14,6 +14,18 @@ __I switch to italian, sorry__
   
       <br/><img src="/img/1a.jpg" alt="drawing" width="180"/> <img src="/img/1b.jpg" alt="drawing" width="180"/> <img src="/img/1c.jpg" alt="drawing" width="180"/> <img src="/img/1d.jpg" alt="drawing" width="180"/>
   
-  - IterMoody2: Itera le f nel caso reynolds sia fisso perché la portata o la velocità siano note (oltre a e ed d). 
+  - **IterMoody2**: Itera le f nel caso reynolds sia fisso perché la portata o la velocità sono già note (oltre a e ed d). Se non sono note in partenza e occore calcolarle dal bilancio energetico: vedi *IterMoody5*
   
       <br/><img src="/img/2a.jpg" alt="drawing" width="180"/> <img src="/img/2b.jpg" alt="drawing" width="180"/> <img src="/img/2c.jpg" alt="drawing" width="180"/> <img src="/img/2d.jpg" alt="drawing" width="180"/>
+  
+  - **IterMoody3**: Calcola l'altezza di contrazione di vena e l'altezza di petto di un serbatoio con stramazzo
+  
+      <br/><img src="/img/3a.jpg" alt="drawing" width="180"/> <img src="/img/3b.jpg" alt="drawing" width="180"/> <img src="/img/3c.jpg" alt="drawing" width="180"/> <img src="/img/3d.jpg" alt="drawing" width="180"/>
+  
+  - **IterMoody4**: Calcola il tirante di moto uniforme e critico e la pendenza del fondo uniforme e critico
+  
+      <br/><img src="/img/4a.jpg" alt="drawing" width="180"/> <img src="/img/4b.jpg" alt="drawing" width="180"/> <img src="/img/4c.jpg" alt="drawing" width="180"/> <img src="/img/4d.jpg" alt="drawing" width="180"/>
+  
+  - **IterMoody5**: Itera le f nel caso reynolds sia variabile con la portata che però non è nota a priori. Viene dapprima trovata la portata dal bilancio energetico e poi iterata insieme alle f e reynolds (che variano a loro volta) fino la convergenza. *(Non è perfetto. Creare il sistema iniziale può essere complicato).*
+  
+      <br/><img src="/img/5a.jpg" alt="drawing" width="180"/> <img src="/img/5b.jpg" alt="drawing" width="180"/> <img src="/img/5c.jpg" alt="drawing" width="180"/> <img src="/img/5d.jpg" alt="drawing" width="180"/>
