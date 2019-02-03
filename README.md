@@ -30,6 +30,6 @@ __I switch to italian, sorry__
   
       <br/><img src="/img/5a.jpg" alt="drawing" width="180"/> <img src="/img/5b.jpg" alt="drawing" width="180"/> <img src="/img/5c.jpg" alt="drawing" width="180"/> <img src="/img/5d.jpg" alt="drawing" width="180"/>
     
-   - **Spinte dinamiche**: Calcola le spinte dinamiche in un'intersezione di tubi. 
+   - **Spinte dinamiche**: Calcola le spinte dinamiche in un'intersezione di tubi. [PDF](/img/Versori%20entranti%20e%20uscenti.pdf) d'aiuto con versori entranti e uscenti.
   
       <br/><img src="/img/SD1.jpg" alt="drawing" width="180"/> <img src="/img/SD2.jpg" alt="drawing" width="180"/> <img src="/img/SD3.jpg" alt="drawing" width="180"/> <img src="/img/SD4.jpg" alt="drawing" width="180"/>
