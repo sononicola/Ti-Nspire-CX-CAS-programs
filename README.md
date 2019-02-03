@@ -29,3 +29,7 @@ __I switch to italian, sorry__
   - **IterMoody5**: Itera le f nel caso reynolds sia variabile con la portata che però non è nota a priori. Viene dapprima trovata la portata dal bilancio energetico e poi iterata insieme alle f e reynolds (che variano a loro volta) fino la convergenza. *(Non è perfetto. Creare il sistema iniziale può essere complicato).*
   
       <br/><img src="/img/5a.jpg" alt="drawing" width="180"/> <img src="/img/5b.jpg" alt="drawing" width="180"/> <img src="/img/5c.jpg" alt="drawing" width="180"/> <img src="/img/5d.jpg" alt="drawing" width="180"/>
+    
+   - **Spinte dinamiche**: Calcola le spinte dinamiche in un'intersezione di tubi. 
+  
+      <br/><img src="/img/SD1.jpg" alt="drawing" width="180"/> <img src="/img/SD2.jpg" alt="drawing" width="180"/> <img src="/img/SD3.jpg" alt="drawing" width="180"/> <img src="/img/SD4.jpg" alt="drawing" width="180"/>
