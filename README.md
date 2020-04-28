@@ -34,3 +34,7 @@ __I switch to italian, sorry__
    - **Spinte dinamiche**: Calcola le spinte dinamiche in un'intersezione di tubi. [PDF](/img/Versori%20entranti%20e%20uscenti.pdf) d'aiuto con versori entranti e uscenti.
   
       <br/><img src="/img/SD1.jpg" alt="drawing" width="180"/> <img src="/img/SD2.jpg" alt="drawing" width="180"/> <img src="/img/SD3.jpg" alt="drawing" width="180"/> <img src="/img/SD4.jpg" alt="drawing" width="180"/>
+## Computational structural mechanics (FEM)
+  - **SlaveMaster**: Calculates the displacements and deformations starting from the coordinates of the Master and Slave element. At the moment there are two version of this file. The one (page 2.1 - 2.4) that uses the program slavemaster_1() is the one more optimized to not block the calculator. I'm working to transform the other formulas.
+  
+     <br/><img src="/img/MecCompu1.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu2.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu3.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu4.jpg" alt="drawing" width="180"/>      
