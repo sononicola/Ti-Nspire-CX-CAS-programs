@@ -10,6 +10,7 @@ __I switch to italian, sorry__
      <br/><img src="/img/s1.jpg" alt="drawing" width="180"/> <img src="/img/s2.jpg" alt="drawing" width="180"/> <img src="/img/s3.jpg" alt="drawing" width="180"/> <img src="/img/s4.jpg" alt="drawing" width="180"/>
 ## Meccanica dei fluidi 
 (If you need the [Moody diagram](/img/Moody.pdf) here it is)
+  - **MF:** This is a library. You have to put into "MyLib" folder and then refresh libraries. It helps you to find f0, area, exc. using for example: mf\a(diam). It isn't necessary to have it with programs below.
   - **IterMoody1:** Itera le f per trovare la velocità (e portata) in caso di piezometrici dinami e/o statici 
   
       <br/><img src="/img/1a.jpg" alt="drawing" width="180"/> <img src="/img/1b.jpg" alt="drawing" width="180"/> <img src="/img/1c.jpg" alt="drawing" width="180"/> <img src="/img/1d.jpg" alt="drawing" width="180"/>
