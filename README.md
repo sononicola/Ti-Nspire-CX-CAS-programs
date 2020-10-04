@@ -37,4 +37,11 @@ __I switch to italian, sorry__
 ## Computational structural mechanics (FEM)
   - **SlaveMaster**: Calculates the displacements and deformations starting from the coordinates of the Master and Slave element. At the moment there are two version of this file. The one (page 2.1 - 2.4) that uses the program slavemaster_1() is the one more optimized to not block the calculator. I'm working to transform the other formulas.
   
-     <br/><img src="/img/MecCompu1.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu2.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu3.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu4.jpg" alt="drawing" width="180"/>      
+     <br/><img src="/img/MecCompu1.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu2.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu3.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu4.jpg" alt="drawing" width="180"/>   
+ ## Structural Safety
+  - **LoadCombination**: init version: compute Ultimate State Limit ULS (Stati Limiti Ultimi SLU) accordingly to Eurocode (EU) and NTC2018 (italian normative). Only gamma A1 coefficients
+  
+  Future versions TODO: add SLS combinations, add gamma A2 and gamma EQU
+
+
+  <br/><img src="/img/LoadComb1.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb2.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb3.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb4.jpg" alt="drawing" width="180"/>          
