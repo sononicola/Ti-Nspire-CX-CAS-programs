@@ -39,9 +39,19 @@ __I switch to italian, sorry__
   
      <br/><img src="/img/MecCompu1.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu2.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu3.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu4.jpg" alt="drawing" width="180"/>   
  ## Structural Safety
-  - **LoadCombination**: init version: compute Ultimate State Limit ULS (Stati Limiti Ultimi SLU) accordingly to Eurocode (EU) and NTC2018 (italian normative). Only gamma A1 coefficients
-  
-  Future versions TODO: add SLS combinations, add gamma A2 and gamma EQU
+  - **LoadCombination**: Compute load combinations in Ultimate State Limit ULS (Stati Limiti Ultimi SLU) and SLT (SLE) accordingly to Eurocode (EU) and NTC2018 (italian normative). 
+  *GUIDE:*
+
+		In 1.2 define:
+		_comuns A:_ they are just names. Do what you want here
+		_column B:_ the load values
+		_column C:_ the category for that value. You have to choose the row number of the categories in column E (names). Example: Cat. C is the 5th row, so insert 5.
+		_column D:_ "s" or "f" only. Lower case. Choose if the load is sfavoreval or favoreval 
+		Move to another page and to start the program type comb(k) where k is: 
+		1 if γ EQU
+		2 if γ A1
+		3 if γ A2
+
 
 
   <br/><img src="/img/LoadComb1.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb2.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb3.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb4.jpg" alt="drawing" width="180"/>          
