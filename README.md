@@ -40,8 +40,7 @@ __I switch to italian, sorry__
      <br/><img src="/img/MecCompu1.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu2.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu3.jpg" alt="drawing" width="180"/> <img src="/img/MecCompu4.jpg" alt="drawing" width="180"/>   
  ## Structural Safety
   - **LoadCombination**: Compute load combinations in Ultimate State Limit ULS (Stati Limiti Ultimi SLU) and SLT (SLE) accordingly to Eurocode (EU) and NTC2018 (italian normative). 
-  *GUIDE:*
-
+  GUIDE:
 		In 1.2 define:
 		_comuns A:_ they are just names. Do what you want here
 		_column B:_ the load values
@@ -52,6 +51,9 @@ __I switch to italian, sorry__
 		2 if γ A1
 		3 if γ A2
 
-
+TODO: 
+- Precompress load (maybe not)
+- Sismic combinations (maybe not)
+- Python+Latex version (maybe yes)
 
   <br/><img src="/img/LoadComb1.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb2.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb3.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb4.jpg" alt="drawing" width="180"/>          
