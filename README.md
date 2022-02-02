@@ -41,20 +41,30 @@ __I switch to italian, sorry__
  ## Structural Safety
   - **LoadCombination**: Compute load combinations in Ultimate State Limit ULS (Stati Limiti Ultimi SLU) and SLT (SLE) accordingly to Eurocode (EU) and NTC2018 (italian normative). 
 
-  GUIDE:
-		In 1.2 define:
-		-- _comuns A:_ they are just names. Do what you want here
-		-- _column B:_ the load values
-		-- _column C:_ the category for that value. You have to choose the row number of the categories in column E (names). Example: Cat. C is the 5th row, so insert 5.
-		- _column D:_ "s" or "f" only. Lower case. Choose if the load is sfavoreval or favoreval 
-		Move to another page and to start the program type comb(k) where k is: 
-		--- 1 if γ EQU
-		--- 2 if γ A1
-		--- 3 if γ A2
-
+GUIDE:
+- In 1.2 define:
+  - _comuns A:_ they are just names. Do what you want here
+  - _column B:_ the load values
+  - _column C:_ the category for that value. You have to choose the row number of the categories in column E (names). Example: Cat. C is the 5th row, so insert 5.
+  - _column D:_ "s" or "f" only. Lower case. Choose if the load is sfavoreval or favoreval 
+- Move to another page and to start the program type comb(k) where k is: 
+  - 1 if γ EQU
+  - 2 if γ A1
+  - 3 if γ A2
 - TODO: 
--- Precompress load (maybe not)
--- Sismic combinations (maybe not)
--- Python+Latex version (maybe yes)
+  - Precompress load (maybe not)
+  - Sismic combinations (maybe not)
+  - Python+Latex version (maybe yes)
 
   <br/><img src="/img/LoadComb1.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb2.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb3.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb4.jpg" alt="drawing" width="180"/>          
+  ## Dynamic Of Structures
+  - **DynamicOfStructures**: Compute eigen values and vectors of a dynamic system. HP: Maximum component of the eigenvector (psi) = +1
+  Input: (matrix M, matrix K, the k value in K matrix)
+  Three version of the program:
+  -  din1: Results symbolically and analitically. Be carefull: it's very slow using the texax! Use PC version instead.
+  -  din2: Only analitically. Use this version with the texas
+  -  din3: Sometimes the CAS isn't able to determine if a value is positive or not, so din1 and din2 can give an error where there is the if statemant that computes the Maximum component of the eigenvector. In din3 this if statement is disabled. Check the value 1 or -1 by hands!
+  <br/><img src="/img/DynamicOfStructures1.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures2.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures3.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures4.jpg" alt="drawing" width="180"/>          
+  
+  - **SectionProperties**: Calculate area, center of mass, inertia from X,Y coordinates. The last one point must be the same of the first one!
+  - <br/><img src="/img/SectionProperties1.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties2.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties3.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties4.jpg" alt="drawing" width="180"/>  
