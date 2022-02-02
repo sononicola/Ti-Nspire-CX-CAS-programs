@@ -57,14 +57,15 @@ GUIDE:
   - Python+Latex version (maybe yes)
 
   <br/><img src="/img/LoadComb1.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb2.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb3.jpg" alt="drawing" width="180"/> <img src="/img/LoadComb4.jpg" alt="drawing" width="180"/>          
-  ## Dynamic Of Structures
+## Dynamic Of Structures
   - **DynamicOfStructures**: Compute eigen values and vectors of a dynamic system. HP: Maximum component of the eigenvector (psi) = +1
-  Input: (matrix M, matrix K, the k value in K matrix)
+  Input: (matrix M, matrix K, the k value in K matrix).
   Three version of the program:
-  -  din1: Results symbolically and analitically. Be carefull: it's very slow using the texax! Use PC version instead.
-  -  din2: Only analitically. Use this version with the texas
-  -  din3: Sometimes the CAS isn't able to determine if a value is positive or not, so din1 and din2 can give an error where there is the if statemant that computes the Maximum component of the eigenvector. In din3 this if statement is disabled. Check the value 1 or -1 by hands!
+    -  din1: Results symbolically and analitically. Be carefull: it's very slow using the texax! Use PC version instead.
+    -  din2: Only analitically. Use this version with the texas
+    -  din3: Sometimes the CAS isn't able to determine if a value is positive or not, so din1 and din2 can give an error where there is the if statemant that computes the Maximum component of the eigenvector. In din3 this if statement is disabled. Check the value 1 or -1 by hands!
+    At page 3.1 and 4.1 there is just some notes that helps to comput the K matrix
   <br/><img src="/img/DynamicOfStructures1.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures2.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures3.jpg" alt="drawing" width="180"/> <img src="/img/DynamicOfStructures4.jpg" alt="drawing" width="180"/>          
   
   - **SectionProperties**: Calculate area, center of mass, inertia from X,Y coordinates. The last one point must be the same of the first one!
-  - <br/><img src="/img/SectionProperties1.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties2.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties3.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties4.jpg" alt="drawing" width="180"/>  
+  <br/><img src="/img/SectionProperties1.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties2.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties3.jpg" alt="drawing" width="180"/> <img src="/img/SectionProperties4.jpg" alt="drawing" width="180"/>  
